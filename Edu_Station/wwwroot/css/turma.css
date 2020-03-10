@@ -1,0 +1,67 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", cursive;
+}
+
+.turma {
+    width: 320px;
+    height: 530px;
+    border-radius: 80px 0px 80px 0px;
+    color: #fff;
+    background-color: #4682B4;
+    top: 75%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+}
+
+.turma p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.turma input {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+    .turma input[type="text"], input[type="password"], input[type="date"] {
+        border: none;
+        border-bottom: 1px solid white;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+    }
+
+    .turma input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 35px;
+        color: #000;
+        background: #fff;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+
+        .turma input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ff4d4d;
+            transition: 0.2s
+        }

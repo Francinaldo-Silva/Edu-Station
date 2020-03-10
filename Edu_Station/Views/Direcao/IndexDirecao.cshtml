@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Edu_Station</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/css/aluno.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="topo">
+        <div class="topo">
+            <h3>Edu Station</h3>
+            <h1>Direção Workstation</h1>
+            <nav class="icone">
+                <ul>
+                    <li>
+                        <img src="~/img/icon.png">
+                        <ul class="icon">
+                            <li><a href="#" id="alterar">Alterar</a></li>
+                            <li><a href="#" id="exit">Exit</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </section>
+    <div class="tabela">
+        <h2>Direção Cadastrados<a id="botao" asp-controller="Direcao" asp-action="CriarDirecao" title="Adicionar novo"> + </a> </h2>
+        <div class="pesquisa">
+            <form>
+                <input type="text" />
+                <button>Pesquisar</button>
+            </form>
+        </div>
+        <div class="tabelas">
+            <table border="1">
+                <tr>
+                    <td colspan="18">ID</td>
+                    <td colspan="18">Nome</td>
+                    <td colspan="18">CPF</td>
+                    <td colspan="18">Data de nascimento</td>
+                    <td colspan="18">Email</td>
+                </tr>
+                <tr>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                    <td colspan="18"></td>
+                   
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

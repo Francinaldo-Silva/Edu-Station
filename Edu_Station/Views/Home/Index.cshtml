@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Edu Station";
+}
+<link rel="stylesheet" href="~/css/style.css">
+<section id="topo">
+    <div class="topo">
+        <h3>Edu Station</h3>
+        <h1>Direção Workstation</h1>
+        <nav class="icone">
+            <ul>
+                <li>
+                    <img src="~/img/icon.png">
+                    <ul class="icon">
+                        <li><a asp-controller="Login" asp-action="Entrar">Login</a></li>
+                        <li><a href="#" id="alterar">Alterar</a></li>
+                        <li><a href="#" id="exit">Exit</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</section>
+<hr>
+<center >
+    <section class="botoes">
+        <div class="botoes1">
+            <a class="b1" asp-controller="Direcao" asp-action="IndexDirecao">Direção</a>
+            <a class="b2" asp-controller="Docente" asp-action="IndexDocente">Docente</a>
+            <a class="b3" asp-controller="Aluno" asp-action="IndexAluno">Aluno(a)</a>
+            <a class="b4" asp-controller="Disciplina" asp-action="IndexDisciplina">Disciplina</a>
+        </div>
+        <div class="botoes2">
+            <a class="b5" asp-controller="Turma" asp-action="IndexTurma">Turma</a>
+        </div>
+    </section>
+</center>
+
+<hr>
